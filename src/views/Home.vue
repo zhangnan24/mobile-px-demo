@@ -10,5 +10,6 @@
   text-align: center;
   line-height: 100px;
   background: #13b5b1;
+  border-radius: 10px;
 }
 </style>
