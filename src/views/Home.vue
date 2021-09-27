@@ -1,18 +1,14 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <div class="test-viewport">测试转换</div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
-export default {
-  name: "Home",
-  components: {
-    HelloWorld,
-  },
-};
-</script>
+<style lang="less" scoped>
+.test-viewport {
+  width: 750px;
+  height: 100px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+  background: #13b5b1;
+}
+</style>
